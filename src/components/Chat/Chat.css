@@ -1,0 +1,92 @@
+.chat {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+}
+
+.chat-users {
+  padding: 20px 15px;
+  background-color: rgb(206, 197, 197);
+  min-height: 400px;
+}
+
+.chat-users__title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.chat-users__list {
+  margin-top: 10px;
+}
+
+.chat-users__user {
+  background-color: honeydew;
+  padding: 10px;
+  border-radius: 3px;
+  list-style: none;
+  font-size: 14px;
+}
+
+.chat-messages {
+  padding: 20px;
+}
+
+.messages {
+  min-height: 250px;
+  max-height: 250px;
+  overflow-y: auto;
+  border-bottom: 2px solid #909090;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.message_guest {
+  align-items: flex-end;
+}
+
+.message__text {
+  padding: 10px 7px;
+  background-color: purple;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.message__text_guest {
+  background-color: cornflowerblue;
+}
+
+.message__name-box {
+  margin-top: 5px;
+}
+
+.message__name {
+  color: #909090;
+}
+
+.chat-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.chat-form__text {
+  padding: 10px;
+}
+
+.chat-btn {
+  width: fit-content;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
